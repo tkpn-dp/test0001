@@ -63,5 +63,5 @@ with col1:
 
 with col2:
     st.text('こんな感じです')
-    image = Image.open('data/udonya_box.gif')
+    image = Image.open('./udonya_box.gif')
     st.image(image)
