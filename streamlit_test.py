@@ -1,5 +1,5 @@
 from re import sub
-from turtle import width
+#from turtle import width
 import streamlit as st
 import datetime
 from PIL import Image
@@ -62,6 +62,6 @@ with col1:
             st.text(f'{age_category}')
 
 with col2:
-    st.text('konnnakannji')
+    st.text('こんな感じです')
     image = Image.open('data/udonya_box.gif')
     st.image(image)
